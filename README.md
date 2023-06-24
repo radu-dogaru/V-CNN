@@ -2,7 +2,8 @@
 Versatile CNN (for image classification, can be optimized to efficient TinyML solutions : good validation accuracy yet low complexity 
 
 Code is avalailable to run in Google COLAB (or in Kaggle platform) 
-<a href="https://colab.research.google.com/github.com/radu-dogaru/V-CNN/blob/main/v_cnn_support%20(1).ipynb">
+
+<a href="https://colab.research.google.com/github/radu-dogaru/V-CNN/blob/main/v_cnn_support%20(1).ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 Code is support for paper:
