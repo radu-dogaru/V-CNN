@@ -1,5 +1,5 @@
 # V-CNN
-Versatile CNN (for image classification, can be optimized to efficient TinyML solutions : good validation accuracy yet low complexity 
+Versatile CNN (for image classification, can be optimized to provide efficient TinyML solutions : good validation accuracy yet low complexity)
 
 Code is avalailable to run in Google COLAB (or in Kaggle platform) 
 
