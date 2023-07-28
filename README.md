@@ -6,7 +6,7 @@ Code is avalailable to run in Google COLAB (or in Kaggle platform)
 <a href="https://colab.research.google.com/github/radu-dogaru/V-CNN/blob/main/v_cnn_support%20(1).ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
-Code is support for paper:
+Code is support for paper (a reprint is available here https://github.com/radu-dogaru/V-CNN/blob/main/VCNN-paper.pdf ):
 R. Dogaru and Ioana Dogaru, "V-CNN: A versatile light CNN structure for image recognition on resources-constrained platforms",  submitted to ISEEE-2023, June 24, 2023. 
 
 V-CNN is a less constrained architecture composed of an arbitrary number of macro-layers, each can be 
