@@ -15,4 +15,4 @@ but V-CNN allows arbitrary # of filters per each macro-layer and arbitrary nonli
 add any desired number of hidden dense layers in the output classifier. NL-CNN and XNL-CNN models are now 
 special cases of the V-CNN. 
 
-
+New: (Apr. 25, 2024): A Pytorch implementation was added:  https://github.com/radu-dogaru/V-CNN/blob/main/vcnn_pytorch.py
