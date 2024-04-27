@@ -90,8 +90,8 @@ class V_CNN(nn.Module):
         x = self.gap(x)
         x = torch.flatten(x, 1)
         x = self.fc(x)
-        #x = F.sigmoid(x)  
-        x = F.softmax(x, dim=0) 
+        x = F.sigmoid(x)  
+        #x = F.softmax(x, dim=0) 
         return x
 
 #=========== example model =====================
