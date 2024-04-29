@@ -14,7 +14,7 @@ from tensorflow.keras.optimizers import RMSprop, SGD, Adadelta, Adam, Nadam
 print('Model VCNN imported')
 #--------------------------  ------------------------------
 def create_v_cnn_model(input_shape, num_classes, flat=1, fil=[100,100,100,100], nl=[1,1,0,0], hid=[]):
-    import numpy as np 
+   
     
     # Note the number of elements in fil list (macrolayers) should be the same in nl list
     # hid can be [] while if the are elements, additional dense layers are added in the output classifier
@@ -22,7 +22,7 @@ def create_v_cnn_model(input_shape, num_classes, flat=1, fil=[100,100,100,100], 
     csize=3; stri=2; psiz=4; pad='same';
     drop1=0.6  # Best value for CIFAR-100 after tuning in range 0.25 - 0.75 !
 
-    nfilmax=np.shape(np.array(fil))[0]
+    nfilmax=numpy.shape(np.array(fil))[0]
 
     model = Sequential()
     # First macrolayer - connected to input  ----------------
@@ -69,7 +69,7 @@ def create_v_cnn_model(input_shape, num_classes, flat=1, fil=[100,100,100,100], 
             model.add(GlobalAveragePooling2D()) # pare sa fie mai Ok la cifar
     elif nfilmax==0:
         model.add(Flatten(input_shape=input_shape))
-    nhid=np.shape(np.array(hid))[0]
+    nhid=numpy.shape(np.array(hid))[0]
     if nhid>0:
         for lay in range(nhid):
             model.add(Dense(hid[lay], activation='relu'))
