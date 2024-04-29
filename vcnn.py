@@ -7,7 +7,6 @@
 # Copyright Radu and Ioana DOGARU - correspondence: radu.dogaru@upb.ro
 # Updates: June 21, 2023; April 29, 2024 
 #-------------------------------------------------------------------------------------------------
-import numpy as np 
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Flatten, Activation, BatchNormalization
 from tensorflow.keras.layers import Conv2D, DepthwiseConv2D, MaxPooling2D, AveragePooling2D, GlobalAveragePooling2D, SeparableConv2D  # straturi convolutionale si max-pooling
@@ -15,6 +14,8 @@ from tensorflow.keras.optimizers import RMSprop, SGD, Adadelta, Adam, Nadam
 print('Model VCNN imported')
 #--------------------------  ------------------------------
 def create_v_cnn_model(input_shape, num_classes, flat=1, fil=[100,100,100,100], nl=[1,1,0,0], hid=[]):
+    import numpy as np 
+    
     # Note the number of elements in fil list (macrolayers) should be the same in nl list
     # hid can be [] while if the are elements, additional dense layers are added in the output classifier
 
