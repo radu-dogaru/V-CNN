@@ -7,7 +7,7 @@
 # Copyright Radu and Ioana DOGARU - correspondence: radu.dogaru@upb.ro
 # Updates: June 21, 2023; April 29, 2024 
 #-------------------------------------------------------------------------------------------------
-
+import numpy as np 
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Dropout, Flatten, Activation, BatchNormalization
 from tensorflow.keras.layers import Conv2D, DepthwiseConv2D, MaxPooling2D, AveragePooling2D, GlobalAveragePooling2D, SeparableConv2D  # straturi convolutionale si max-pooling
