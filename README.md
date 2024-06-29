@@ -17,4 +17,4 @@ special cases of the V-CNN.
 
 News: (Apr. 25, 2024): A Pytorch implementation was added:  https://github.com/radu-dogaru/V-CNN/blob/main/vcnn_pytorch.py
 
-News: (June  28, 2028): A newer Tiny-ML model namned VRES-CNN was derived (it includes V-CNN as a special case). More detalis here: https://github.com/radu-dogaru/vres-cnn 
+News: (June  28, 2024): A newer Tiny-ML model namned VRES-CNN was derived (it includes V-CNN as a special case). More detalis here: https://github.com/radu-dogaru/vres-cnn 
